@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
 
 * {
     margin: 0;
@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 300;
     color: #000000;
 
@@ -16,9 +16,9 @@ body {
     /* headings and logo */
 
     h1, h2 {
-        font-family: Montserrat, sans-serif;
-        text-transform: uppercase;
+        font-family: 'Inter', sans-serif;
         color: #000000;
+        text-transform: uppercase;
         
     }
 
@@ -53,15 +53,42 @@ body {
     /* hero image */
 
     #hero-outer {
-        height: 750px;
+        height: 650px;
         width: 100%;
         overflow: hidden;
+
+        position: relative;
+    }
+
+    #cover-text, #cover-text h2 {
+        color: white;
     }
     
     #hero-image {
-        height: 750px;
+        height: 650px;
         width: 100%;
         background: url(../images/hero-image.jpeg) no-repeat;
+    }
+
+    #cover-text {
+        font-size: 130%;
+        font-family: 'Inter', sans-serif;
+        text-transform: uppercase;
+        
+
+        width: 400px;
+        height: 150px;
+
+        padding-top: 40px;
+        padding-left: 10px;
+
+        background-color: rgba(206, 162, 42, 0.849);
+
+        bottom: 30px;
+        right: 150px;
+
+        position: absolute;
+
     }
 
 
