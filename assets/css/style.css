@@ -27,3 +27,13 @@ body {
         font-size: 225%;
     }
 
+    #menu {
+       font-size: 100%; 
+    }
+
+    #menu li {
+        float: right;
+        list-style-type: none;
+        margin-right: 20px;
+    }
+
