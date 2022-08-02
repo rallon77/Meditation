@@ -17,8 +17,13 @@ body {
 
     h1, h2 {
         font-family: Montserrat, sans-serif;
-        letter-spacing: 1px;
-        color: black
+        text-transform: uppercase;
+        color: #000000
         
+    }
+
+    #logo {
+        float: left;
+        font-size: 225%;
     }
 
