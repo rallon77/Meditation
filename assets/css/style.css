@@ -41,7 +41,7 @@ body {
     #menu li {
         float: right;
         list-style-type: none;
-        margin-right: 20px;
+        margin-right: 25px;
     }
 
     #menu a {
@@ -93,4 +93,28 @@ body {
 
     }
 
+    /* group features */
+
+    #group-features {
+        height: 650px;
+    }
+
+    #left-about {
+       padding-top: 25px;
+       width: 33%;
+       float: left;
+    }
+
+    #right-about {
+       padding-top: 25px;
+       width: 33%;
+       float: right; 
+    }
+
+    #center-about {
+        width: 33%;
+        margin: 0 auto;
+        padding-top: 25px;
+        
+    }
 
