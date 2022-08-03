@@ -107,7 +107,7 @@ body {
     /* group features */
 
     #group-features {
-        height: 650px;
+        height: 300px;
         font-size: 120%;
         
     }
@@ -138,6 +138,31 @@ body {
         margin: 50px;
         
     }
+
+    /* excersises gallery */
+    
+    div.gallery {
+        margin: 5px;
+        border: 1px solid #000000;
+        float: left;
+        width: 400px;
+
+      }
+      
+      div.gallery:hover {
+        border: 1px solid #000000;
+      }
+      
+      div.gallery img {
+        width: 100%;
+        height: auto;
+        
+      }
+      
+      div.desc {
+        padding: 15px;
+        text-align: center;
+      }
 
 
 
