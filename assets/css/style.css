@@ -24,6 +24,12 @@ body {
         
     }
 
+    h3 {
+        font-family: 'Ubuntu', sans-serif;
+        color: #000000;
+        font-size: 120%;  
+    }
+
     #logo {
         float: left;
         font-size: 225%;
@@ -74,7 +80,7 @@ body {
     }
 
     #cover-text {
-        font-size: 100%;
+        font-size: 120%;
         font-family: 'Roboto', sans-serif;
         
         width: 150px;
@@ -93,15 +99,20 @@ body {
 
     }
 
+    #cover-name {
+        font-size: 80%;
+        padding-top: 10px;
+    }
+
     /* group features */
 
     #group-features {
         height: 650px;
+        font-size: 120%;
         
     }
 
     #left-about {
-       font-size: 120%;
        padding-top: 25px;
        width: 20%;
        float: left;
@@ -109,7 +120,6 @@ body {
     }
 
     #right-about {
-       font-size: 120%;
        padding-top: 25px;
        width: 20%;
        float: right;
@@ -117,10 +127,15 @@ body {
     }
 
     #center-about {
-        font-size: 120%;
         width: 20%;
         margin: 0 auto;
         padding-top: 25px;
+        
+    }
+
+    #group-heading {
+        text-align: center;
+        margin: 50px;
         
     }
 
