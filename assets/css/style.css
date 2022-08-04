@@ -175,6 +175,31 @@ body {
           margin: 5px;
         }
 
+        /* footer */
+
+footer {
+    position: relative;
+    clear:both;
+    height:150px;
+    margin-top: -150px; 
+}
+
+
+.social-links {
+    text-align: center;
+}
+
+.social-links > li {
+    display: inline;
+}
+
+.social-links i {
+    font-size: 200%;
+    margin: 1%;
+    padding: 5%;
+    color: #070606;
+}
+
 
 
     
