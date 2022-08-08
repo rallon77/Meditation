@@ -278,6 +278,10 @@ footer {
     color: #070606;
 }
 
+/* Media queries */
+
+/* For larger to medium screens size from 1200px wide and down */
+
 @media screen and (max-width: 1200px) {
     #group-features {
         width:65%;
@@ -305,6 +309,35 @@ footer {
             line-height: 25px;
         }
     }
+
+    #cover-text {
+        left: 0;
+    }
+
+    #group-features {
+        width: 90%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    .center-about-heading, .left-about-heading, .right-about-heading {
+       width: inherit; 
+    }
+
+    .center-about-heading h3, .left-about-heading h3, .right-about-heading h3 {
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .center-about-heading p, .left-about-heading p, .right-about-heading p {
+        text-align: center;
+        padding: 0 20px;
+
+    }
+
+
+
 
 
 
