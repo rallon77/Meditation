@@ -278,6 +278,28 @@ footer {
     color: #070606;
 }
 
+@media screen and (max-width: 1200px) {
+    #group-features {
+        width:65%;
+        height: 1200px;
+        margin: 0 auto;  
+}
+    #group-heading {
+        padding: 30px 0;
+        margin: 0;
+    }
+
+    #left-about, #right-about, #center-about {
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+
+
+
+}
+
 
 
 
