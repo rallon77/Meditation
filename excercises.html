@@ -29,7 +29,44 @@
         </ul>  
         </nav>
     </header>
-    
+    <section>
+        <div class="v-container">
+            <div class="heading">Some of our excercises</div>
+            <div class="video-container">
+                <div class="video">
+                    <video src="./assets/videos/video.mp4" muted></video>
+        </div>
+        <div class="video">
+            <video src="./assets/videos/video2.mp4" muted></video>
+</div>
+<div class="video">
+    <video src="/assets/videos/video3.mp4" muted></video>
+</div>
+<div class="video">
+    <video src="/assets/videos/video.mp4" muted></video>
+</div>
+        </div>
+        </div>
+    </section>
+ 
+<!--Font awsome script-->    
 <script src="https://kit.fontawesome.com/64ab254d4c.js" crossorigin="anonymous"></script>
+
+<!--Video script-->
+<script>
+    var video =document.querySelectorAll('video')
+    video.forEach(play => play.addEventListener('click', () =>{
+
+    play.classList.toggle('active');
+
+    if(play.paused){
+        play.play();
+    }else{
+        play.pause();
+        play.currentTime = 0;
+    }
+    
+    }));
+    </script>
 </body>
 </html>
