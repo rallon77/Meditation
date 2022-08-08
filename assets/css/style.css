@@ -141,32 +141,22 @@ body {
 
     /* video gallery */
 
-    .v-container .heading {
-        font-size: 3rem;
-        margin: 2rem 0;
-        text-transform: capitalize;
-        color: var(--purple);
-        font-family: 'Roboto', 'Ubuntu', sans-serif;
-        letter-spacing: 2rem;
-        text-align: center;
-        text-shadow: 0 .3rem .5rem rgba(0, 0, 0, .5);
-
-    }
-
     .video-container {
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
+        
 
     }
 
     .video-container .video {
         height: 15rem;
         width: 25rem;
-        margin: 2rem;
+        margin: 50px;
         box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .5);
         overflow: hidden;
         border-radius: 1rem;
+        margin-top: 100px;
 
     }
 
@@ -248,7 +238,7 @@ footer {
     position: relative;
     clear:both;
     height:150px;
-    margin-top: -150px; 
+    
 }
 
 
@@ -266,6 +256,8 @@ footer {
     padding: 5%;
     color: #070606;
 }
+
+
 
 
 
