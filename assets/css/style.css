@@ -142,6 +142,10 @@ body {
 
     /* video gallery */
 
+    #video-heading {
+        text-align: center;
+    }
+    
     .video-container {
         display: flex;
         justify-content: center;
