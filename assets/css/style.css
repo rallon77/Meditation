@@ -237,6 +237,22 @@ body {
           margin: 5px;
         }
 
+        /* About us section */
+
+        #about-heading {
+            text-align: center;
+            margin: 50px;
+       }
+        
+       #about-text {
+        width: 20%;
+        margin: 0 auto;
+        padding-top: 25px;
+        height: 300px;
+        font-size: 130%;
+       }
+
+        
         /* footer */
 
 footer {
@@ -261,6 +277,8 @@ footer {
     padding: 5%;
     color: #070606;
 }
+
+
 
 
 
