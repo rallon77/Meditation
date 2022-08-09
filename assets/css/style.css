@@ -121,6 +121,7 @@ h3 {
     width: 20%;
     float: left;
     margin-left: 100px;
+    font-weight: bold;
 }
 
 #right-about {
@@ -128,12 +129,14 @@ h3 {
     width: 20%;
     float: right;
     margin-right: 100px;
+    font-weight: bold;
 }
 
 #center-about {
     width: 20%;
     margin: 0 auto;
     padding-top: 25px;
+    font-weight: bold;
 
 }
 
@@ -145,9 +148,6 @@ h3 {
 
 /* video gallery */
 
-#video-heading {
-    text-align: center;
-}
 
 .video-container {
     display: flex;
@@ -200,48 +200,6 @@ h3 {
 
 }
 
-
-
-
-
-
-/* excersises gallery */
-
-#container {
-    width: 500px;
-    margin: 0 auto;
-
-}
-
-div.img {
-    margin: 5px;
-    padding: 5px;
-    border: 2px solid #000000;
-    height: auto;
-    width: auto;
-    float: left;
-    text-align: center;
-    font-size: 130%;
-    font-family: 'Ubuntu', sans-serif;
-}
-
-div.img img {
-    display: inline;
-    margin: 5px;
-    border: 1px solid #ffffff;
-}
-
-div.img a:hover img {
-    border: 1px solid #000000;
-}
-
-div.desc {
-    text-align: center;
-    font-weight: normal;
-    width: 120px;
-    margin: 5px;
-}
-
 /* About us section */
 
 #about-heading {
@@ -250,13 +208,13 @@ div.desc {
 }
 
 #about-text {
-    width: 20%;
-    margin: 0 auto;
-    padding-top: 25px;
-    height: 300px;
-    font-size: 130%;
-}
+    
+        width: 65%;
+        margin: 0 auto;
+        padding-top: 25px;
+        font-weight: bold;
 
+}
 
 /* footer */
 
@@ -288,20 +246,9 @@ footer {
 /* For larger to medium screens size from 1200px wide and down */
 
 @media screen and (max-width: 1200px) {
-    #group-features {
-        width: 65%;
-        margin: 0 auto;
-    }
+    
 
-    #container {
-        width: 65%;
-        text-align: center;
-        float: center;
-    }
-
-   
-
-    #group-heading {
+   #group-heading {
         padding: 30px 0;
         margin: 0;
     }
@@ -325,7 +272,7 @@ footer {
     #about-text {
         width:100%;
         float: left;
-        font-size: 200%;
+    
     }
 
     .video-container {
@@ -337,6 +284,7 @@ footer {
 
     /* For medium screen sizes from 950px wide and down */
     @media screen and (max-width: 950px) {
+        
         #menu {
             clear: left;
             float: left;
@@ -351,12 +299,6 @@ footer {
         left: 0;
     }
 
-    #group-features {
-        width: 100%;
-        margin: 0 auto;
-    }
-
-   
 
     .video-container {
         width: 100%;
@@ -365,11 +307,7 @@ footer {
 
     }
 
-    .img {
-        width: 100%;
-        float: left;
-        margin-left: 0%;   
-    }
+    
 
 }
 
