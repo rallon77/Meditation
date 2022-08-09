@@ -77,7 +77,7 @@ body {
     #hero-image {
         height: 650px;
         width: 100%;
-        background: url(../images/hero-image.jpeg) no-repeat;
+        background: url(../images/hero-image.jpeg) no-repeat center center;
     }
 
     #cover-text {
