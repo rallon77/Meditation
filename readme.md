@@ -66,7 +66,7 @@
 * No unfixed bugs
 
 ## The site was deployed to Github pages. 
-* [The live link is here](/rallon77.github.io/Meditation/index.html)
+* [The live link is here](/https://rallon77.github.io/Meditation/)
 
 ## Media
 * The image in the header was taken from Pexels.com
